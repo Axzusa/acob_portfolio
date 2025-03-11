@@ -1,0 +1,73 @@
+.categ {
+    background-color: purple;
+    color: palevioletred;
+    text-align: center;
+    font-family: "Monotype Corsiva"; 
+
+    padding: 5px;
+}
+
+.categ:hover { cursor: default; }
+
+
+table { border-spacing: 0;}
+td { border: 2px solid black; }
+
+.sidebar {
+    width: 300px; 
+    background-color: black; 
+    padding: 10px;
+    height: 100%;    
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.webcat {
+    width: 300px; 
+    background-color: maroon;
+    color: aqua;
+
+    font-family: "Arial";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.webcat td {    padding: 10px;  }
+.webcat td:hover { color: blue;  cursor: pointer;}
+
+
+
+
+.msoffice { margin-left: 380px; }
+
+.section {
+    background-color: maroon;  
+
+    color: aqua;  
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+
+    border: 6px double cyan;
+    
+
+    margin-bottom: 30px;  
+    width: 500px; 
+    padding: 15px;
+}
+
+
+.section ul {   list-style-type: square;  }
+.section ul li {
+    background-color: magenta; 
+    color: aqua;  
+
+    border: 3px double cyan;
+    
+    padding: 5px;
+    margin: 5px;
+    width: 90%; 
+}
